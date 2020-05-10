@@ -4,4 +4,98 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+
+#search-bar {
+  display: inline-block;
+  border: solid;
+  padding: 10px;
+  margin-bottom: 1rem;
+}
+
+#search-bar input[type="text"] {
+  padding: 0.5rem 0.5rem;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  width: 15rem;
+}
+
+#search-bar input[type="text"] ::-webkit-input-placeholder {
+  color: green;
+}
+
+#search-bar input[type="text"] :-ms-input-placeholder {
+  color: green;
+}
+
+#search-bar input[type="text"] ::-ms-input-placeholder {
+  color: green;
+}
+
+#search-bar input[type="text"] ::placeholder {
+  color: green;
+}
+
+#search-bar input[type="submit"] {
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+#search-bar-2 {
+  border: solid;
+  padding: 10px;
+  margin-bottom: 1rem;
+}
+
+#search-bar-2 input[type="text"] {
+  padding: 0.5rem 0.5rem;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  width: 100%;
+}
+
+#search-bar-2 input[type="text"] ::-webkit-input-placeholder {
+  color: green;
+}
+
+#search-bar-2 input[type="text"] :-ms-input-placeholder {
+  color: green;
+}
+
+#search-bar-2 input[type="text"] ::-ms-input-placeholder {
+  color: green;
+}
+
+#search-bar-2 input[type="text"] ::placeholder {
+  color: green;
+}
+
+.bg-1 {
+  background: green;
+}
+
+.container-2 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 1200px) {
+  .container-2 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+.flex-end {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
 /*# sourceMappingURL=style.css.map */
