@@ -7,7 +7,6 @@
 
 #search-bar {
   display: inline-block;
-  border: solid;
   padding: 10px;
   margin-bottom: 1rem;
 }
@@ -44,8 +43,15 @@
   cursor: pointer;
 }
 
+#search-bar input[type="submit"]:hover {
+  background: #dbdbff;
+}
+
+#search-bar input[type="submit"]:active {
+  background: #c6c6ff;
+}
+
 #search-bar-2 {
-  border: solid;
   padding: 10px;
   margin-bottom: 1rem;
 }
